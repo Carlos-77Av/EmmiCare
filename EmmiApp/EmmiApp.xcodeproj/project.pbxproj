@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9DEA09292BA9535B00555891 /* EmmiAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DEA09282BA9535B00555891 /* EmmiAppApp.swift */; };
+		9DEA092B2BA9535B00555891 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DEA092A2BA9535B00555891 /* ContentView.swift */; };
+		9DEA092D2BA9535C00555891 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DEA092C2BA9535C00555891 /* Assets.xcassets */; };
+		9DEA09302BA9535C00555891 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DEA092F2BA9535C00555891 /* Preview Assets.xcassets */; };
+		9DEA093A2BA9535C00555891 /* EmmiAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DEA09392BA9535C00555891 /* EmmiAppTests.swift */; };
+		9DEA09442BA9535D00555891 /* EmmiAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DEA09432BA9535D00555891 /* EmmiAppUITests.swift */; };
+		9DEA09462BA9535D00555891 /* EmmiAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DEA09452BA9535D00555891 /* EmmiAppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9DEA09362BA9535C00555891 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9DEA091D2BA9535B00555891 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9DEA09242BA9535B00555891;
+			remoteInfo = EmmiApp;
+		};
+		9DEA09402BA9535D00555891 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9DEA091D2BA9535B00555891 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9DEA09242BA9535B00555891;
+			remoteInfo = EmmiApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9DEA09252BA9535B00555891 /* EmmiApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EmmiApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DEA09282BA9535B00555891 /* EmmiAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmmiAppApp.swift; sourceTree = "<group>"; };
+		9DEA092A2BA9535B00555891 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9DEA092C2BA9535C00555891 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9DEA092F2BA9535C00555891 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9DEA09352BA9535C00555891 /* EmmiAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EmmiAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DEA09392BA9535C00555891 /* EmmiAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmmiAppTests.swift; sourceTree = "<group>"; };
+		9DEA093F2BA9535D00555891 /* EmmiAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EmmiAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DEA09432BA9535D00555891 /* EmmiAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmmiAppUITests.swift; sourceTree = "<group>"; };
+		9DEA09452BA9535D00555891 /* EmmiAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmmiAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9DEA09222BA9535B00555891 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DEA09322BA9535C00555891 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DEA093C2BA9535D00555891 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9DEA091C2BA9535B00555891 = {
+			isa = PBXGroup;
+			children = (
+				9DEA09272BA9535B00555891 /* EmmiApp */,
+				9DEA09382BA9535C00555891 /* EmmiAppTests */,
+				9DEA09422BA9535D00555891 /* EmmiAppUITests */,
+				9DEA09262BA9535B00555891 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9DEA09262BA9535B00555891 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9DEA09252BA9535B00555891 /* EmmiApp.app */,
+				9DEA09352BA9535C00555891 /* EmmiAppTests.xctest */,
+				9DEA093F2BA9535D00555891 /* EmmiAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9DEA09272BA9535B00555891 /* EmmiApp */ = {
+			isa = PBXGroup;
+			children = (
+				9DEA09282BA9535B00555891 /* EmmiAppApp.swift */,
+				9DEA092A2BA9535B00555891 /* ContentView.swift */,
+				9DEA092C2BA9535C00555891 /* Assets.xcassets */,
+				9DEA092E2BA9535C00555891 /* Preview Content */,
+			);
+			path = EmmiApp;
+			sourceTree = "<group>";
+		};
+		9DEA092E2BA9535C00555891 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				9DEA092F2BA9535C00555891 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9DEA09382BA9535C00555891 /* EmmiAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				9DEA09392BA9535C00555891 /* EmmiAppTests.swift */,
+			);
+			path = EmmiAppTests;
+			sourceTree = "<group>";
+		};
+		9DEA09422BA9535D00555891 /* EmmiAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9DEA09432BA9535D00555891 /* EmmiAppUITests.swift */,
+				9DEA09452BA9535D00555891 /* EmmiAppUITestsLaunchTests.swift */,
+			);
+			path = EmmiAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9DEA09242BA9535B00555891 /* EmmiApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9DEA09492BA9535D00555891 /* Build configuration list for PBXNativeTarget "EmmiApp" */;
+			buildPhases = (
+				9DEA09212BA9535B00555891 /* Sources */,
+				9DEA09222BA9535B00555891 /* Frameworks */,
+				9DEA09232BA9535B00555891 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EmmiApp;
+			productName = EmmiApp;
+			productReference = 9DEA09252BA9535B00555891 /* EmmiApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9DEA09342BA9535C00555891 /* EmmiAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9DEA094C2BA9535D00555891 /* Build configuration list for PBXNativeTarget "EmmiAppTests" */;
+			buildPhases = (
+				9DEA09312BA9535C00555891 /* Sources */,
+				9DEA09322BA9535C00555891 /* Frameworks */,
+				9DEA09332BA9535C00555891 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9DEA09372BA9535C00555891 /* PBXTargetDependency */,
+			);
+			name = EmmiAppTests;
+			productName = EmmiAppTests;
+			productReference = 9DEA09352BA9535C00555891 /* EmmiAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9DEA093E2BA9535D00555891 /* EmmiAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9DEA094F2BA9535D00555891 /* Build configuration list for PBXNativeTarget "EmmiAppUITests" */;
+			buildPhases = (
+				9DEA093B2BA9535D00555891 /* Sources */,
+				9DEA093C2BA9535D00555891 /* Frameworks */,
+				9DEA093D2BA9535D00555891 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9DEA09412BA9535D00555891 /* PBXTargetDependency */,
+			);
+			name = EmmiAppUITests;
+			productName = EmmiAppUITests;
+			productReference = 9DEA093F2BA9535D00555891 /* EmmiAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9DEA091D2BA9535B00555891 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					9DEA09242BA9535B00555891 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					9DEA09342BA9535C00555891 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 9DEA09242BA9535B00555891;
+					};
+					9DEA093E2BA9535D00555891 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 9DEA09242BA9535B00555891;
+					};
+				};
+			};
+			buildConfigurationList = 9DEA09202BA9535B00555891 /* Build configuration list for PBXProject "EmmiApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9DEA091C2BA9535B00555891;
+			productRefGroup = 9DEA09262BA9535B00555891 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9DEA09242BA9535B00555891 /* EmmiApp */,
+				9DEA09342BA9535C00555891 /* EmmiAppTests */,
+				9DEA093E2BA9535D00555891 /* EmmiAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9DEA09232BA9535B00555891 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DEA09302BA9535C00555891 /* Preview Assets.xcassets in Resources */,
+				9DEA092D2BA9535C00555891 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DEA09332BA9535C00555891 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DEA093D2BA9535D00555891 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9DEA09212BA9535B00555891 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DEA092B2BA9535B00555891 /* ContentView.swift in Sources */,
+				9DEA09292BA9535B00555891 /* EmmiAppApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DEA09312BA9535C00555891 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DEA093A2BA9535C00555891 /* EmmiAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DEA093B2BA9535D00555891 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DEA09462BA9535D00555891 /* EmmiAppUITestsLaunchTests.swift in Sources */,
+				9DEA09442BA9535D00555891 /* EmmiAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9DEA09372BA9535C00555891 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9DEA09242BA9535B00555891 /* EmmiApp */;
+			targetProxy = 9DEA09362BA9535C00555891 /* PBXContainerItemProxy */;
+		};
+		9DEA09412BA9535D00555891 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9DEA09242BA9535B00555891 /* EmmiApp */;
+			targetProxy = 9DEA09402BA9535D00555891 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		9DEA09472BA9535D00555891 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9DEA09482BA9535D00555891 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9DEA094A2BA9535D00555891 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"EmmiApp/Preview Content\"";
+				DEVELOPMENT_TEAM = DSVD277BF8;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.chacalacateca.EmmiApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9DEA094B2BA9535D00555891 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"EmmiApp/Preview Content\"";
+				DEVELOPMENT_TEAM = DSVD277BF8;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.chacalacateca.EmmiApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9DEA094D2BA9535D00555891 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DSVD277BF8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.chacalacateca.EmmiAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EmmiApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/EmmiApp";
+			};
+			name = Debug;
+		};
+		9DEA094E2BA9535D00555891 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DSVD277BF8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.chacalacateca.EmmiAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EmmiApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/EmmiApp";
+			};
+			name = Release;
+		};
+		9DEA09502BA9535D00555891 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DSVD277BF8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.chacalacateca.EmmiAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EmmiApp;
+			};
+			name = Debug;
+		};
+		9DEA09512BA9535D00555891 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DSVD277BF8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.chacalacateca.EmmiAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EmmiApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9DEA09202BA9535B00555891 /* Build configuration list for PBXProject "EmmiApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DEA09472BA9535D00555891 /* Debug */,
+				9DEA09482BA9535D00555891 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9DEA09492BA9535D00555891 /* Build configuration list for PBXNativeTarget "EmmiApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DEA094A2BA9535D00555891 /* Debug */,
+				9DEA094B2BA9535D00555891 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9DEA094C2BA9535D00555891 /* Build configuration list for PBXNativeTarget "EmmiAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DEA094D2BA9535D00555891 /* Debug */,
+				9DEA094E2BA9535D00555891 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9DEA094F2BA9535D00555891 /* Build configuration list for PBXNativeTarget "EmmiAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DEA09502BA9535D00555891 /* Debug */,
+				9DEA09512BA9535D00555891 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9DEA091D2BA9535B00555891 /* Project object */;
+}
